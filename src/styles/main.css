@@ -1,0 +1,35 @@
+:root {
+    /* Backgrounds */
+    --bg-black: #000001;
+    --bg-dark-blue: #1c2445;
+
+    /* Text / UI */
+    --text-light: #c9d9ea;
+    --text-muted: #6c80a6;
+
+    /* Accent */
+    --accent-purple: #704e91;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+aside {
+    background-color: var(--bg-dark-blue);
+}
+
+nav {
+    background-color: var(--text-muted);
+}
+
+section {
+    background-color: var(--accent-purple);
+}
