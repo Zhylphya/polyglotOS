@@ -26,8 +26,11 @@ aside {
     background-color: var(--bg-dark-blue);
 }
 
-nav {
+.navbar {
     background-color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
 }
 
 section {
