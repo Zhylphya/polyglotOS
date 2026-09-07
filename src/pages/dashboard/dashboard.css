@@ -1,0 +1,10 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
